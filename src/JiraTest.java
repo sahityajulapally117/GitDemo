@@ -20,7 +20,7 @@ public class JiraTest {
 	public static void main(String[] args) {
 
 		RestAssured.baseURI="http://localhost:8080";
-		//RestAssured.baseURI="http://localhost:8080";
+		
 
 		SessionFilter session=new SessionFilter();
 
